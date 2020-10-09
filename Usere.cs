@@ -31,6 +31,7 @@ namespace Shool2
             this.pasword = pasword;
             this.studentid = studentid;
         }
+        //hi world
 
 
         public string Name
