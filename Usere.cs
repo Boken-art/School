@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.Specialized;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,11 +16,12 @@ namespace Shool2
         public string month;
         public string day;
         public string pasword;
+        public string studentid;
         public Usere()
         {
 
         }
-        public Usere(string name, string sur, string year, string month, string day, string pasword)
+        public Usere(string name, string sur, string year, string month, string day, string pasword,string studentid)
         {
             this.name = name;
             this.sur = sur;
@@ -27,6 +29,7 @@ namespace Shool2
             this.month = month;
             this.day = day;
             this.pasword = pasword;
+            this.studentid = studentid;
         }
 
 
