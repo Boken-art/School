@@ -12,27 +12,27 @@ namespace Shool2
 
         public string name;
         public string sur;
-        public string year;
-        public string month;
-        public string day;
+        public string date;
         public string pasword;
         public string studentid;
         public Usere()
         {
 
         }
-        public Usere(string name, string sur, string year, string month, string day, string pasword,string studentid)
+        public Usere(string name, string sur,string date, string pasword,string studentid)
         {
             this.name = name;
             this.sur = sur;
-            this.year = year;
-            this.month = month;
-            this.day = day;
+            this.date = date;
             this.pasword = pasword;
             this.studentid = studentid;
         }
         //hi world
-
+        public string Date
+        {
+            get => date;
+            set => date = value;
+        }
 
         public string Name
         {
@@ -44,25 +44,16 @@ namespace Shool2
             get { return sur; }
             set { sur = value; }
         }
-        public string Year
-        {
-            get { return year; }
-            set { year = value; }
-        }
-        public string Month
-        {
-            get { return month; }
-            set { month = value; }
-        }
-        public string Day
-        {
-            get { return day; }
-            set { day = value; }
-        }
+       
         public string Pasword
         {
             get { return pasword; }
             set { pasword = value; }
+        }
+        public string Studentid
+        {
+            get { return studentid; }
+         
         }
 
     }
