@@ -12,6 +12,20 @@ namespace Shool2
 {
     public partial class Form1 : Form
     {
+        private static Form1 _instance;
+
+        public static Form1 Instance
+        {
+            get {
+                if (_instance == null)
+                {
+                    _instance = new Form1();
+                }
+
+                return _instance;
+            }
+        }
+
         public Form1()
         {
             InitializeComponent();
@@ -21,7 +35,10 @@ namespace Shool2
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            homePage1.Hide();
+           // addWork1.Hide();
             this.BackColor = Color.FromArgb(41, 44, 51);
+           
         }
         private void sendText(object sender, EventArgs e)
         {
@@ -29,7 +46,9 @@ namespace Shool2
             string studentid = rand.Next(10000, 99999).ToString();
             this.BackColor = Color.FromArgb(41, 44, 51);
             Usere object1 = new Usere(textBoxName.Text, textBoxSur.Text, dateTimePicker1.Value.ToString("dd/MM/yyyy"), textBoxPasword.Text,studentid);
-            richTextBox1.AppendText(object1.Name + " " + object1.Sur + " " +object1.date+ " "+object1.Studentid + Environment.NewLine);
+           // richTextBox1.AppendText(object1.Name + " " + object1.Sur + " " +object1.date+ " "+object1.Studentid + Environment.NewLine);
+           homePage1.Show();
+           
 
         }
         private void textBoxName_TextChanged(object sender, EventArgs e)
@@ -88,6 +107,11 @@ namespace Shool2
             dateD = dateTimePicker1.Value;
             string date = dateTimePicker1.Value.ToString("MM/dd/yyyy");
     */        
+        }
+
+        private void homePage1_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }

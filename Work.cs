@@ -9,6 +9,7 @@
          public float rating;
          public int znamka;
 
+        
          public Work(string workName, string studentid, string predmetid)
          {
              this.workName = workName;

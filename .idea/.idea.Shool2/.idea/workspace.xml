@@ -13,12 +13,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/sasha/OneDrive/Dokumenty/GitHub/School/AddWork.Designer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/sasha/OneDrive/Dokumenty/GitHub/School/AddWork.Designer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/sasha/OneDrive/Dokumenty/GitHub/School/AddWork.Designer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/sasha/OneDrive/Dokumenty/GitHub/School/AddWork.Designer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/sasha/OneDrive/Dokumenty/GitHub/School/AddWork.Designer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/sasha/OneDrive/Dokumenty/GitHub/School/AddWork.Designer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/sasha/OneDrive/Dokumenty/GitHub/School/AddWork.Designer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/sasha/OneDrive/Dokumenty/GitHub/School/AddWork.Designer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/sasha/OneDrive/Dokumenty/GitHub/School/AddWork.Designer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1E9166BF-CA65-4377-B09C-EA42D003812D/e4/f46a6481/Color.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/sasha/OneDrive/Dokumenty/GitHub/School/AddWork.Designer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/sasha/OneDrive/Dokumenty/GitHub/School/AddWork.Designer.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Usere.cs" />
+      <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1cd51a1b-1400-4c76-8fda-2f60a4e2fb51/console.sql" />
+      <option value="$PROJECT_DIR$/Home page.cs" />
       <option value="$PROJECT_DIR$/Form1.cs" />
       <option value="$PROJECT_DIR$/HomePage.cs" />
+      <option value="$PROJECT_DIR$/AddWork.Designer.cs" />
       <option value="$PROJECT_DIR$/Work.cs" />
+      <option value="$PROJECT_DIR$/AddWork.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1p70Jd70KKnDX9swwcfGWTeZUBA" />
@@ -28,9 +46,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql&#10;sqlserver" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -62,13 +82,18 @@
       <option name="presentableId" value="Default" />
       <updated>1614518758784</updated>
       <workItem from="1614518767830" duration="5971000" />
+      <workItem from="1614711709063" duration="1593000" />
+      <workItem from="1615112036696" duration="2198000" />
+      <workItem from="1615118612743" duration="6165000" />
+      <workItem from="1615307160083" duration="2181000" />
+      <workItem from="1615309387172" duration="4857000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

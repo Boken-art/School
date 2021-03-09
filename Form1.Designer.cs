@@ -33,6 +33,9 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.homePage1 = new Shool2.HomePage();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.surename = new System.Windows.Forms.Label();
             this.textBoxSur = new System.Windows.Forms.TextBox();
@@ -40,14 +43,10 @@
             this.name1 = new System.Windows.Forms.Label();
             this.textBoxPasword = new System.Windows.Forms.TextBox();
             this.textBoxName = new System.Windows.Forms.TextBox();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -84,6 +83,9 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Indigo;
+            this.panel2.Controls.Add(this.homePage1);
+            this.panel2.Controls.Add(this.richTextBox1);
+            this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.dateTimePicker1);
             this.panel2.Controls.Add(this.surename);
             this.panel2.Controls.Add(this.textBoxSur);
@@ -97,6 +99,34 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(365, 535);
             this.panel2.TabIndex = 3;
+            // 
+            // homePage1
+            // 
+            this.homePage1.Location = new System.Drawing.Point(-12, -12);
+            this.homePage1.Name = "homePage1";
+            this.homePage1.Size = new System.Drawing.Size(395, 559);
+            this.homePage1.TabIndex = 19;
+            this.homePage1.Load += new System.EventHandler(this.homePage1_Load);
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(57, 358);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(272, 20);
+            this.richTextBox1.TabIndex = 0;
+            this.richTextBox1.Text = "";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Fuchsia;
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Location = new System.Drawing.Point(57, 483);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(272, 49);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Create User";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.sendText);
             // 
             // dateTimePicker1
             // 
@@ -167,43 +197,11 @@
             this.textBoxName.Click += new System.EventHandler(this.textBoxName_TextChanged);
             this.textBoxName.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (192)))), ((int) (((byte) (0)))), ((int) (((byte) (192)))));
-            this.panel3.Controls.Add(this.richTextBox1);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel3.Location = new System.Drawing.Point(393, 0);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(481, 492);
-            this.panel3.TabIndex = 3;
-            // 
-            // richTextBox1
-            // 
-            this.richTextBox1.Location = new System.Drawing.Point(127, 30);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(285, 20);
-            this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = "";
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Fuchsia;
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(500, 498);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(272, 49);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Create User";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.sendText);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(874, 559);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.panel3);
+            this.ClientSize = new System.Drawing.Size(395, 559);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
@@ -214,9 +212,10 @@
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            this.panel3.ResumeLayout(false);
             this.ResumeLayout(false);
         }
+
+        private Shool2.HomePage homePage1;
 
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
 
@@ -231,7 +230,6 @@
         private System.Windows.Forms.Label name1;
         private System.Windows.Forms.TextBox textBoxPasword;
         private System.Windows.Forms.TextBox textBoxName;
-        private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label surename;

@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Alexander\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Alexander\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Shool2.-444748349.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Alexander\source\repos\Shool2" t="IncludeRecursive">
+    <e p="C:\Users\sasha\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\sasha\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Shool2.-1254650533.00" t="ExcludeRecursive" />
+    <e p="C:\Users\sasha\AppData\Roaming\JetBrains\Rider2020.3\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\sasha\AppData\Roaming\JetBrains\Rider2020.3\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\sasha\OneDrive\Dokumenty\GitHub\School" t="IncludeRecursive">
+      <e p="AddWork.cs" t="Include" />
+      <e p="AddWork.Designer.cs" t="Include" />
+      <e p="AddWork.resx" t="Include" />
       <e p="App.config" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="Form1.cs" t="Include" />
