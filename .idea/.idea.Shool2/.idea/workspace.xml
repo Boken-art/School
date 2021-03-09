@@ -34,9 +34,9 @@
       <option value="$PROJECT_DIR$/Home page.cs" />
       <option value="$PROJECT_DIR$/Form1.cs" />
       <option value="$PROJECT_DIR$/HomePage.cs" />
-      <option value="$PROJECT_DIR$/AddWork.Designer.cs" />
       <option value="$PROJECT_DIR$/Work.cs" />
       <option value="$PROJECT_DIR$/AddWork.cs" />
+      <option value="$PROJECT_DIR$/AddWork.Designer.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1p70Jd70KKnDX9swwcfGWTeZUBA" />
@@ -86,7 +86,7 @@
       <workItem from="1615112036696" duration="2198000" />
       <workItem from="1615118612743" duration="6165000" />
       <workItem from="1615307160083" duration="2181000" />
-      <workItem from="1615309387172" duration="4857000" />
+      <workItem from="1615309387172" duration="5946000" />
     </task>
     <servers />
   </component>
