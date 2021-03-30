@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Shool2
 {
-    class Usere
+    class User
     {
 
         public string name;
@@ -15,11 +15,11 @@ namespace Shool2
         public string date;
         public string pasword;
         public string studentid;
-        public Usere()
+        public User()
         {
 
         }
-        public Usere(string name, string sur,string date, string pasword,string studentid)
+        public User(string name, string sur,string date, string pasword,string studentid)
         {
             this.name = name;
             this.sur = sur;

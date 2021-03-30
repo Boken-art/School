@@ -45,7 +45,7 @@ namespace Shool2
             Random rand = new Random();
             string studentid = rand.Next(10000, 99999).ToString();
             this.BackColor = Color.FromArgb(41, 44, 51);
-            Usere object1 = new Usere(textBoxName.Text, textBoxSur.Text, dateTimePicker1.Value.ToString("dd/MM/yyyy"), textBoxPasword.Text,studentid);
+            User object1 = new User(textBoxName.Text, textBoxSur.Text, dateTimePicker1.Value.ToString("dd/MM/yyyy"), textBoxPasword.Text,studentid);
            // richTextBox1.AppendText(object1.Name + " " + object1.Sur + " " +object1.date+ " "+object1.Studentid + Environment.NewLine);
            homePage1.Show();
            
