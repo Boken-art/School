@@ -2,7 +2,7 @@
 
 namespace Shool2
 {
-    partial class HomePage
+    partial class HomeView
     {
         /// <summary> 
         /// Required designer variable.
@@ -94,7 +94,7 @@ namespace Shool2
             this.textBox1.Size = new System.Drawing.Size(107, 20);
             this.textBox1.TabIndex = 5;
             // 
-            // HomePage
+            // HomeView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -104,7 +104,7 @@ namespace Shool2
             this.Controls.Add(this.label1);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.button1);
-            this.Name = "HomePage";
+            this.Name = "HomeView";
             this.Size = new System.Drawing.Size(395, 559);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+#pragma warning disable 0436
 
 namespace Shool2
 {
@@ -16,7 +17,7 @@ namespace Shool2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new MainView());
         }
     }
 }

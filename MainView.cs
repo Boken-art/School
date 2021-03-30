@@ -7,26 +7,27 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+#pragma warning disable 0436
 
 namespace Shool2
 {
-    public partial class Form1 : Form
+    public partial class MainView : Form
     {
-        private static Form1 _instance;
+        private static MainView _instance;
 
-        public static Form1 Instance
+        public static MainView Instance
         {
             get {
                 if (_instance == null)
                 {
-                    _instance = new Form1();
+                    _instance = new MainView();
                 }
 
                 return _instance;
             }
         }
 
-        public Form1()
+        public MainView()
         {
             InitializeComponent();
           

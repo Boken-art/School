@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Windows.Forms;
+#pragma warning disable 0436
 
 namespace Shool2
 {
-    public partial class HomePage : UserControl
+    public partial class HomeView : UserControl
     {
-        public HomePage()
+        public HomeView()
         {
             InitializeComponent();
             
@@ -28,7 +29,7 @@ namespace Shool2
 
         private void button1_Click(object sender, EventArgs e)
         {
-           //Form1.Show
+           //MainView.Show
             //homePage1.Hide();
         }
 

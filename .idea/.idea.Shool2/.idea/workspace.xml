@@ -4,7 +4,19 @@
     <projectFile>Shool2.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87d8390e-2a60-4040-98d0-ca68585edde8" name="Default Changelist" comment="" />
+    <list default="true" id="87d8390e-2a60-4040-98d0-ca68585edde8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MainView.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shool2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shool2/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shool2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shool2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MainView.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MainView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Form1.resx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomePage.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HomeView.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomePage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HomeView.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HomePage.resx" beforeDir="false" afterPath="$PROJECT_DIR$/HomeView.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shool2.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Shool2.csproj" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,30 +25,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/sasha/OneDrive/Dokumenty/GitHub/School/AddWork.Designer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/sasha/OneDrive/Dokumenty/GitHub/School/AddWork.Designer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/sasha/OneDrive/Dokumenty/GitHub/School/AddWork.Designer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/sasha/OneDrive/Dokumenty/GitHub/School/AddWork.Designer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/sasha/OneDrive/Dokumenty/GitHub/School/AddWork.Designer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/sasha/OneDrive/Dokumenty/GitHub/School/AddWork.Designer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/sasha/OneDrive/Dokumenty/GitHub/School/AddWork.Designer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/sasha/OneDrive/Dokumenty/GitHub/School/AddWork.Designer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/sasha/OneDrive/Dokumenty/GitHub/School/AddWork.Designer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1E9166BF-CA65-4377-B09C-EA42D003812D/e4/f46a6481/Color.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/sasha/OneDrive/Dokumenty/GitHub/School/AddWork.Designer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/sasha/OneDrive/Dokumenty/GitHub/School/AddWork.Designer.cs" root0="SKIP_HIGHLIGHTING" />
-  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Usere.cs" />
       <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1cd51a1b-1400-4c76-8fda-2f60a4e2fb51/console.sql" />
       <option value="$PROJECT_DIR$/Home page.cs" />
-      <option value="$PROJECT_DIR$/Form1.cs" />
       <option value="$PROJECT_DIR$/HomePage.cs" />
       <option value="$PROJECT_DIR$/Work.cs" />
       <option value="$PROJECT_DIR$/AddWork.cs" />
       <option value="$PROJECT_DIR$/AddWork.Designer.cs" />
+      <option value="$PROJECT_DIR$/Usere.cs" />
+      <option value="$PROJECT_DIR$/User.cs" />
+      <option value="$PROJECT_DIR$/Form1.cs" />
+      <option value="$PROJECT_DIR$/MainView.cs" />
+      <option value="$PROJECT_DIR$/HomeView.cs" />
+      <option value="$PROJECT_DIR$/MainView.Designer.cs" />
+      <option value="$PROJECT_DIR$/Program.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1p70Jd70KKnDX9swwcfGWTeZUBA" />
@@ -47,6 +50,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql&#10;sqlserver" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34995976" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -87,6 +92,10 @@
       <workItem from="1615118612743" duration="6165000" />
       <workItem from="1615307160083" duration="2181000" />
       <workItem from="1615309387172" duration="5946000" />
+      <workItem from="1615642436761" duration="1057000" />
+      <workItem from="1615644500421" duration="2007000" />
+      <workItem from="1617124536547" duration="225000" />
+      <workItem from="1617124939667" duration="1099000" />
     </task>
     <servers />
   </component>
@@ -95,6 +104,18 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

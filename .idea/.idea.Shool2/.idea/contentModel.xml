@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\sasha\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\sasha\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Shool2.-1254650533.00" t="ExcludeRecursive" />
-    <e p="C:\Users\sasha\AppData\Roaming\JetBrains\Rider2020.3\consoles\db" t="IncludeRecursive" />
-    <e p="C:\Users\sasha\AppData\Roaming\JetBrains\Rider2020.3\extensions" t="IncludeRecursive" />
-    <e p="C:\Users\sasha\OneDrive\Dokumenty\GitHub\School" t="IncludeRecursive">
+    <e p="C:\Users\rothm\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\rothm\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Shool2.-1873597765.00" t="ExcludeRecursive" />
+    <e p="C:\Users\rothm\AppData\Roaming\JetBrains\Rider2020.3\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\rothm\AppData\Roaming\JetBrains\Rider2020.3\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\rothm\Documents\GitHub\School" t="IncludeRecursive">
       <e p="AddWork.cs" t="Include" />
       <e p="AddWork.Designer.cs" t="Include" />
       <e p="AddWork.resx" t="Include" />
       <e p="App.config" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
-      <e p="Form1.cs" t="Include" />
-      <e p="Form1.Designer.cs" t="Include" />
-      <e p="Form1.resx" t="Include" />
-      <e p="HomePage.cs" t="Include" />
-      <e p="HomePage.Designer.cs" t="Include" />
-      <e p="HomePage.resx" t="Include" />
+      <e p="HomeView.cs" t="Include" />
+      <e p="HomeView.Designer.cs" t="Include" />
+      <e p="HomeView.resx" t="Include" />
       <e p="Info.cs" t="Include" />
       <e p="Info.Designer.cs" t="Include" />
       <e p="Info.resx" t="Include" />
+      <e p="MainView.cs" t="Include" />
+      <e p="MainView.Designer.cs" t="Include" />
+      <e p="MainView.resx" t="Include" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="Program.cs" t="Include" />
@@ -35,7 +35,7 @@
       </e>
       <e p="Shool2.csproj" t="IncludeRecursive" />
       <e p="Shool2.sln" t="IncludeFlat" />
-      <e p="Usere.cs" t="Include" />
+      <e p="User.cs" t="Include" />
       <e p="Work.cs" t="Include" />
     </e>
   </component>
